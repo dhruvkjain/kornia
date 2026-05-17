@@ -42,7 +42,6 @@ from kornia.augmentation.utils.helpers import (
     override_parameters,
 )
 from kornia.augmentation.utils.param_validation import (
-    _check_positive_int_or_traced,
     _common_param_check,
     _joint_range_check,
     _range_bound,
@@ -55,7 +54,6 @@ __all__ = [
     "_adapted_rsampling",
     "_adapted_sampling",
     "_adapted_uniform",
-    "_check_positive_int_or_traced",
     "_common_param_check",
     "_infer_batch_shape",
     "_infer_batch_shape3d",
